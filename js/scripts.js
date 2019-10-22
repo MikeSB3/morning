@@ -1,4 +1,21 @@
 $(document).ready(function() {
+  $(".red-button").click(function(){
+    $("body").removeClass();
+    $("body").addClass("red-background");
+});
+
+  $(".blue-button").click(function(){
+    $("body").removeClass();
+    $("body").addClass("blue-background");
+});
+
+  $(".purple-button").click(function(){
+    $("body").removeClass();
+    $("body").addClass("purple-background");
+});
+
+
+
   $(".clickable").click(function()
     {
     $("#sleepy").toggle();
